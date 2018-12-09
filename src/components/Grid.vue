@@ -31,7 +31,6 @@
             <tr v-for="(entry, idx) in data" :key=idx>
                 <td v-for="(key,idx) in columns" :key=idx> {{entry[key]}}</td>
                 <td class="action-icons">
-                    {{entry.type}}
                     <img src="@/assets/icons/zip.png" alt="" @click="custom(entry.type, 'zip', entry._id)">
                     <img src="@/assets/icons/edit.png" alt="" @click="custom(entry.type, 'edit', entry._id)">
                     <img src="@/assets/icons/tag.png" alt="" @click="custom(entry.type, 'tag', entry._id)">
