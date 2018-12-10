@@ -115,7 +115,6 @@ td {
 }
 
 th, td {
-  min-width: 150px;
   padding: 10px 20px;
 }
 
